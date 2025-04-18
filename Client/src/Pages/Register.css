@@ -1,0 +1,45 @@
+.register-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(105, 214, 214);
+    border: 2px solid black;
+    border-radius: 12px;
+    max-width: 50%;
+}
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-right: 60px; /* Space for button */
+  }
+  
+  /* Show/Hide Button */
+  .toggle-password {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .toggle-password:hover {
+    background: #0056b3;
+  }
+  
